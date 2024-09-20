@@ -1,35 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import List from './components/List';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
+    <div>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <h1 className='title'>Scholr Maison</h1>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+      <div className='subtitle-box'>
+        <h2>Your Success Matters To Us!</h2>
+        <p>Did you know that approximately 70% of students who land an internship get a job offer? Scholr Maison - 
+          "The Home of Scholarships" is a site dedicated on providing the latests available scholarships, making
+          it easier for college students to find opportunities.
+          <br></br>Just be ready to tackle that internship application!
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+      <div className='list-section'>
+        <h2>Fall 2024 - List Of All Available Opportunities</h2>
+        <List />
+      </div>
+
+    </div>
+  );
 }
 
 export default App
