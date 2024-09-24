@@ -10,9 +10,9 @@ const App = () => {
       <div className='subtitle-box'>
         <h2>Your Success Matters To Us!</h2>
         <p>Did you know that approximately 70% of students who land an internship get a job offer? Scholr Maison - 
-          "The Home of Scholarships" is a site dedicated on providing the latests available scholarships, making
-          it easier for college students to find opportunities.
-          <br></br>Just be ready to tackle that internship application!
+          "The Home of Scholarships" is a site dedicated on providing the latests available scholarships
+          for Computer Science undergraduates students.
+          <br></br>It is now easier to find opportunities, just be ready to tackle that internship application!
         </p>
       </div>
       <div className='list-section'>
