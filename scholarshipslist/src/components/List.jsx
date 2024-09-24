@@ -7,6 +7,10 @@ import microsoft from "./microsoft.jpg";
 import linkedin from "./linkedin.png";
 import duolingo from "./duolingo.jpg";
 import grammarly from "./grammarly.png";
+import oracle from "./oracle.webp";
+import netflix from "./netflix.png";
+import royalcg from "./royalcb.jpg";
+import tesla from "./tesla.png";
 
 
 const List = () => {
@@ -21,6 +25,10 @@ const List = () => {
             <ScholarshipCard img={microsoft} type="Software Engineer AI/ML" time="Microsoft (Summer 2025)" dead="9/30/2024" link="https://jobs.careers.microsoft.com/global/en/job/1766916/Software-Engineer%3A-AI%2FML-Intern-Opportunities-for-University-Students%2C-Redmond" />
             <ScholarshipCard img={duolingo} type="Data Science" time="Duolingo (Summer 2025)" dead="Unknown" link="https://job-boards.greenhouse.io/duolingo/jobs/7643898002" />
             <ScholarshipCard img={grammarly} type="Software Engineer" time="Grammarly (Summer 2025)" dead="Unknown" link="https://job-boards.greenhouse.io/grammarly/jobs/6232386?gh_src=0bb770131" />
+            <ScholarshipCard img={oracle} type="Software Engineer Architecture" time="Oracle (Summer 2025)" dead="Unknown" link="https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/requisitions/preview/255793/?location=United+States&locationId=300000000149325&selectedFlexFieldsFacets=%22AttributeChar16%7CInternSoftware%22" />
+            <ScholarshipCard img={netflix} type="Software Engineer" time="Netflix (Summer 2025)" dead="Unknown" link="https://explore.jobs.netflix.net/careers?query=intern&pid=790298739171&domain=netflix.com&sort_by=relevance&triggerGoButton=false" />
+            <ScholarshipCard img={royalcg} type="IT Infrastructure & Operations" time="Royal Caribbean Group (Summer 2025)" dead="Unknown" link="https://jobs.royalcaribbeangroup.com/job/Miramar-2025-Summer-Internship-IT-Infrastructure-&-Operations-Intern-FL-33132/1211577800/" />
+            <ScholarshipCard img={tesla} type="AI Engineer & Robotics" time="TESLA (Winter/Spring 2025)" dead="Unknown" link="https://www.tesla.com/careers/search/job/internship-ai-engineer-self-driving-winter-spring-2025-221939" />
 
         </div>
     )
